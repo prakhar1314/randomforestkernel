@@ -1,2 +1,2 @@
 # randomforestkernel
-alternative kernel for faster computation
+Alternative kernel for faster computation
