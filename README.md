@@ -12,3 +12,15 @@ the Random Forest Kernel. We showed how we can sample
 random partitions from the dataset using an implementation
 of the Random Forest.
 
+Details of the python files
+# help_functions.py
+contains function to access every information of the trees built by random forest like getting parent/child of nodes, leave nodes, height of the trees etc.
+
+# RandomForestKernel.py
+gives the supervised Random Forest Kernel which can be given input to Support Vector Regression, Gaussian Process Regression as custom kernel.
+
+# SVRRandomForest.py
+gives the comparison of Random Forest kernel with RBF kernel on different regression dataset. Any dataset can be choosen to obtain the comparison with different plots.
+
+# SVRRandomForestMSEDataset.py
+gives the comparison of overall statistics(bargraph) of applying SVR with RDF kernel and Random Forest Kernel.
